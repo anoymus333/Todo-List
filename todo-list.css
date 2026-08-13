@@ -1,0 +1,42 @@
+body {
+    font-family:  sans-serif;
+}
+
+
+.todo-grid,
+.grid-container  {
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+   column-gap: 30px;
+    row-gap: 10px;
+}
+.grid-container {
+    margin-bottom: 10px;
+}
+.name-input,
+.date-input,
+.delete-todo {
+  padding: 8px;
+}
+.add-todo {
+  padding: 8px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.add-todo:hover {
+  background-color: #7ab47d;
+  transition: background-color 0.3s ease;
+}
+.delete-todo {
+  
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.delete-todo:hover {
+  background-color: #e57373;
+  transition: background-color 0.3s ease;
+}
